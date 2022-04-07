@@ -24,21 +24,24 @@
     
     <!-- // Hakkımda kısmı -->
     <header id="about">
+        <!-- // İndirilebilir cv içeriğinin yer aldığı bir buton tanımlıyorum.Navigasyon tagi ile sayfa içerisinde yazdığım bölümlere yönlendirmeler yapıyorum -->
 
-
-        <a href="sude-yuksek.pdf" target="_blank" class="btn download">Download PDF</a>
+        <a href="sude_yuksek.pdf" target="_blank" class="btn download">Download PDF</a>
         <nav>
             <a href="#about">About Me</a>
             <a href="#work">Work Experience</a>
             <a href="#education">Education</a>
             <a href="#contact">Contact</a>
         </nav>
+        <!-- // Bölüme ait stil özelliklerini tanımladığım content-wrap sınıfını açıyorum. -->
         <div class="content-wrap">
+            <!-- Profil resmimi yazdığım profile-img sınıfına uygun bir şekilde yüklüyorum-->
             <img class="profile-img col-narrow" src="sudefoto2_640x612.jpg" alt="Sude Yuksek">
             <div class="col-wide">
                 <h1>Sude YÜKSEK</h1>
                 <h2>Student at Marmara University</h2>
                 <p>
+                    <!-- İkonlarla birlikte sosyal medya bilgilerimi ekliyorum -->
                     <ul class="nobull">
                         <li>
                             <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
@@ -59,20 +62,21 @@
                 </p>
             </div>
         </div>
+        <!-- Tema değiştirmemizi sağlayan butonu tanımlıyorum aktiviteleri ise javascriptte yer alıyor -->
         <input type="button" id="btn theme" style="background-color: #22a79c; color: white; width: 150px; height: 40px; font-family: sans-serif; " value="Change Theme">
       
         <script src="index.js"></script>
     </header>
 
     <main>
-        <!-- // Work Experience -->
+        <!-- // İş Tecrübelerinin yer aldığı bölüm -->
         <section id="work" class="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
-          
 
-                <!-- Job 2 Details -->
+
+                <!-- 2.Çalışılan iş bilgileri -->
                 <div class="col-narrow">
                     <h3>Divento Ltd.</h3>
                     <p class="uppercase">Data Analyst Intern</p>
@@ -82,28 +86,30 @@
 
 
 
-
+                <!-- 2.Çalışılan iş detayları -->
 
                 <div class="col-wide job-description">
+                    <!-- Listeleme yöntemi kullandım -->
                     <ul>
-                    <li>
-                        I tested IOS &Android applications of the company
-                        periodically as Intern.
-                    </li>
-                    <li>
-                        I learned how to use Google Tag Manager& Google
-                        Analytics for Digital Marketing and Data Analysis
-                    </li>
-                    <li>
-                        I was analyzing the interactions between user and the
-                        app
-                    </li></ul>
+                        <li>
+                            I tested IOS &Android applications of the company
+                            periodically as Intern.
+                        </li>
+                        <li>
+                            I learned how to use Google Tag Manager& Google
+                            Analytics for Digital Marketing and Data Analysis.
+                        </li>
+                        <li>
+                            I was analyzing the interactions between user and the
+                            app.
+                        </li>
+                    </ul>
 
 
                 </div>
 
 
-                <!-- Job 3 Details -->
+                <!-- 1.Çalışılan iş detayları -->
                 <div class="col-narrow">
                     <h3>
                         Information Technologies and Communication Authority
@@ -112,9 +118,10 @@
 
 
 
-
+                    <!-- küçük harfi büyük harfe dönüştüren uppercase sınıfı yazılmıştır -->
                     <p class="uppercase">Pentester Intern</p>
                     <p>September 2021 - November 2021</p>
+                    <!-- Becerilerin yer aldığı liste tasarımlı bölüm -->
                     <h3> SKILLS</h3>
                     <ul>
                         <li>Java</li>
@@ -129,11 +136,11 @@
                         <li>BurpSuite</li>
                         <li>B2-CI English Language Skills</li>
                     </ul>
-                   
+
                 </div>
 
-             
 
+                <!-- 2.Çalışılan iş detayları -->
                 <div class="col-wide job-description">
 
                     <ul>
@@ -150,34 +157,39 @@
 
                     </ul>
 
-                    <p>See my complete work history and acheivements on <a href="" target="_blank">LinkedIn</a>.</p>
-                    <h3><u>The summarize of what I did during my undergraduate studies:</u></h3>
-                    <p><ul>
-                        <li>
-                            I made an artificial intelligence-based project about Lung
-                            Cancer Detection with Convolutional Neural Networks.
-                        </li>
-                        <li>
-                            I improved my skills on Data Analysis (regression, boost
-                            algorithms, data clearing).I have developed a website engine
-                            that estimates housing prices for Istanbul.
-                        </li>
-                        <li>
-                            I have designed various management systems using Java, C,
-                            Python programming languages.I have Linux-based
-                            programming experience.
-                        </li>
-                        <li>
-                            I developed various simple games and communication applications
-                            using Android.
-                        </li>
-                        <li>
-                            I did my Summer Internship for 3 months as Penetration Test
-                            Training - Pentester at the Information Technologies and
-                            Communication Authority National Cyber Incidents Response
-                            Center. Afterwards, I had the opportunity to improve myself in the
-                            field of Digital Marketing,Data Analysis at Divento ltd.
-                        </li></ul>
+                    <p>See my journey and acheivements on <a href="https://www.linkedin.com/in/sude-y%C3%BCksek-20276b210/" target="_blank">LinkedIn</a>.</p>
+                    <h3>
+                        <!-- Öğrencilik dönemimde yaptığım çalışmaların özeti -->
+                        <u>The summarize of what I did during my undergraduate studies:</u>
+                    </h3>
+                    <p>
+                        <ul>
+                            <li>
+                                I made an artificial intelligence-based project about Lung
+                                Cancer Detection with Convolutional Neural Networks.
+                            </li>
+                            <li>
+                                I improved my skills on Data Analysis (regression, boost
+                                algorithms, data clearing).I have developed a website engine
+                                that estimates housing prices for Istanbul.
+                            </li>
+                            <li>
+                                I have designed various management systems using Java, C,
+                                Python programming languages.I have Linux-based
+                                programming experience.
+                            </li>
+                            <li>
+                                I developed various simple games and communication applications
+                                using Android.
+                            </li>
+                            <li>
+                                I did my Summer Internship for 3 months as Penetration Test
+                                Training - Pentester at the Information Technologies and
+                                Communication Authority National Cyber Incidents Response
+                                Center. Afterwards, I had the opportunity to improve myself in the
+                                field of Digital Marketing,Data Analysis at Divento ltd.
+                            </li>
+                        </ul>
 
                     </p>
 
@@ -189,7 +201,7 @@
 
             </div>
         </section>
-
+        <!-- Geçmişte yaptığım projelerin yer aldığı bölüm -->
         <section id="exptertise" class="exptertise">
             <div class="content-wrap">
                 <h2>Projects</h2>
@@ -203,44 +215,45 @@
                     <h3>Offline Sudoku Game(two players against each other ) on Android</h3>
                 </div>
                 <div class="col-wide job-description">
-                    <p>Goals: • Two players on the same network can play a sudoku game together or against each other with different modes • User selection of different sudoku in easy-medium-hard levels. • Ranked and time trial modes • Creating a leaderboard at the end of the game • Players can communicate through the chat section during the game. Used technologies:Android Programming with Java, Socket Programming , TCP-IP implementation, Singleton Design Pattern</p>
+                    <p>Goals: • Two players on the same network can play a sudoku game together or against each other with different modes. • User selection of different sudoku in easy-medium-hard levels. • Ranked and time trial modes • Creating a leaderboard at the end of the game • Players can communicate through the chat section during the game. Used technologies:Android Programming with Java, Socket Programming , TCP-IP implementation, Singleton Design Pattern.</p>
                 </div>
 
 
 
             </div>
+
             <div class="content-wrap">
                 <h2>Quick Biography</h2>
-
+                <!-- Biyografimin yer aldığı bölüm -->
 
                 <p> Sude Yüksek was born in Istanbul's Beykoz district, known as the “pearl of the Bosphorus” with its 18th and 19th-century houses and pretty, still largely unspoiled coastline, dotted with fishermen’s boats. She speaks French, English and Turkish fluently and writes in all three languages.</p>
 
                 <p>She took her first steps in coding at the age of 12 when she designed a 3D game. She is currently studying Computer Engineering at Marmara University in Istanbul.</p>
                 <p>Her hobbies include drawing, painting and reading the classics. She has explored 20 countries including several continents such as Asia, Europe and Africa, from Cape of Good Hope to Bangkok with her family, giving her the opportunity to meet different people and observe different cultures since her childhood. </p>
                 <p>When asked how she gets her inspiration as a developer, she answers that her favourite time to code, is “when I find a quiet place, where I can take small, gentle sips from a coffee thinking about the process in front of me and my past experiences; melting them into one unified solution, in a harmonious way, just as a perfect combination of nature and nurture”.</p>
-                <a href="https://www.divento.com/en/content/category/25-our-contributors">(taken from Divento.com)</a>
+                <a href="https://www.divento.com/en/content/category/25-our-contributors">(check it on Divento.com)</a>
             </div>
 
 
         </section>
 
-        <!-- // Education -->
+        <!-- // Eğitim bilgilerimin yer aldığı bölüm -->
         <section id="education" class="education">
             <div class="content-wrap">
                 <h2>Education</h2>
 
-                <!-- School 1 details. -->
+                <!-- Üniversite eğitimi bilgilerim -->
                 <h3>Marmara University</h3>
                 <p>Computer Engineering</p>
                 <p> Istanbul, Turkey</p>
                 <p>2019-2023</p>
 
-                <!-- School 2 details. -->
+                <!-- Lise eğitimi bilgilerim -->
                 <h3>Çınar College Science High School</h3>
                 <p>Science</p>
                 <p> Istanbul, Turkey</p>
                 <p>2015-2019</p>
-                <!-- School 1 details. -->
+                <!-- İlkokul eğitimi bilgilerim -->
                 <h3>Çınar College Primary School</h3>
                 <p> Istanbul, Turkey</p>
                 <p>2007-2014</p>
@@ -251,12 +264,12 @@
     </main>
 
 
-    <!-- // Footer & contact info -->
+    <!-- // Footer & contact bilgi kısmı -->
     <footer id="contact">
         <div class="content-wrap">
             <h2>Let's Keep in Touch!</h2>
 
-            <!-- Social media links. Add or remove any networks. -->
+            <!-- Sosyal medya linklerim -->
             <div class="contact-info">
                 <a href="mailto:sudeyuksek@hotmail.com">sudeyuksek@hotmail.com</a>
                 <a href="https://www.linkedin.com/in/sude-y%C3%BCksek-20276b210/">LinkedIn</a>
