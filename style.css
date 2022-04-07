@@ -1,11 +1,13 @@
+
+/* tüm öğelere doğal bir box düzeni modeli uyguladım, ancak bileşenlerin değişmesine izin verdim */
 html {
     box-sizing: border-box;
 }
-
+/*tüm elemanların box modeli parenttan miras alınmıştır*/
 *, *:before, *:after {
     box-sizing: inherit;
 }
-
+/*body bölümündeki kenar boşluk ve yazı tipi tanımlanıyor*/
 body {
     font-family: 'KoHo', sans-serif;
     margin: 0;
@@ -58,7 +60,7 @@ a:hover {
     text-transform: uppercase;
 }
 
-/* Download button */
+/* indirme butonu*/
 .btn {
     text-decoration: none;
     background: #22a79c;
@@ -69,7 +71,7 @@ a:hover {
 
 
 
-/* Header and Footer
+/* Header ve Footer'a ait renk arkaplan rengi bilgisi
 -------------------------*/
 header, footer {
     background: #014b5f;
@@ -112,7 +114,7 @@ footer {
 }
 
 
-/* Navigation
+/* Navigasyon tanımları
 -------------------------*/
 nav {
     text-align: center;
@@ -173,20 +175,19 @@ h3 ~ p {
 }
 
 
-/* Education
--------------------------*/
+/* Eğitim bölümündeki tasarımın rengi ve arkaplanda kapladığı alanı tanımladım.*/
 .education {
     background: linear-gradient(rgba(168, 245, 241, 0.8), rgba(118, 160, 160, 0.5)), url(../images/haskell_campus_building.jpg) no-repeat fixed;
     background-size: cover;
 }
-
+/*p taginden sonra gelen h3 tagine uygulanacak üstten boşluk tanımladım.*/
 p + h3 {
     margin-top: 30px;
 }
 
 
 
-/* Media Queries
+/* Responsive tasarım için media ifadelerini yazıyorum.Minimum genişliği 900 pixel olan cihazlar ile maksimum genişliği 899 pixel olanlar için farklı özellikler tanımlıyorum
 -------------------------*/
 @media (min-width: 900px) {
     .col-narrow {
@@ -210,3 +211,4 @@ p + h3 {
         width: 200px;
     }
 }
+
