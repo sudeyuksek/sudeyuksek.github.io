@@ -1,14 +1,270 @@
-
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
-<link rel="stylesheet" href="style.css"> 
-<title>Page Title</title>
+    <!-- // İhtiyaç duyulan yazı tipi,türkçe klavye,ikonlar vesaire import ediliyor -->
+    <script src="https://use.fontawesome.com/6e47fdd73a.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sude Yuksek | CV</title>
+    <link href="https://fonts.googleapis.com/css?family=KoHo|Cormorant:400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- // burada listelediğim ifadelerin başında işaret olmasını istemediğimi belirtiyorum. -->
+    <style type="text/css">
+        .nobull {
+            list-style-type: none;
+        }
+    </style>
 </head>
 <body>
+    
+    
+    <!-- // Hakkımda kısmı -->
+    <header id="about">
 
-<h1>Sude Yüksek</h1>
-<p>Sude Yüksek was born in Istanbul's Beykoz district, known as the “pearl of the Bosphorus” with its 18th and 19th-century houses and pretty, still largely unspoiled coastline, dotted with fishermen’s boats. She speaks French, English and Turkish fluently and writes in all three languages.She took her first steps in coding at the age of 12 when she designed a 3D game. She is currently studying Computer Engineering at Marmara University in Istanbul. Her hobbies include drawing, painting and reading the classics. She has explored 20 countries including several continents such as Asia, Europe and Africa, from Cape of Good Hope to Bangkok with her family, giving her the opportunity to meet different people and observe different cultures since her childhood. When asked how she gets her inspiration as a developer, she answers that her favourite time to code, is “when I find a quiet place, where I can take small, gentle sips from a coffee thinking about the process in front of me and my past experiences; melting them into one unified solution, in a harmonious way, just as a perfect combination of nature and nurture”.</p>
-<a href="https://www.divento.com/en/content/category/25-our-contributors">Profil</a>
+
+        <a href="sude-yuksek.pdf" target="_blank" class="btn download">Download PDF</a>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#work">Work Experience</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="content-wrap">
+            <img class="profile-img col-narrow" src="sudefoto2_640x612.jpg" alt="Sude Yuksek">
+            <div class="col-wide">
+                <h1>Sude YÜKSEK</h1>
+                <h2>Student at Marmara University</h2>
+                <p>
+                    <ul class="nobull">
+                        <li>
+                            <span class="icon"><i class="fa fa-instagram" aria-hidden="true"></i></span>
+                            <span class="text">Instagram/sudeyuksek</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                            <span class="text">+9 0505 917 09 55</span>
+                        </li>
+                        <li>
+                            <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                            <span class="text">sudeyuksek</span>
+                        </li>
+
+
+                    </ul>
+
+                </p>
+            </div>
+        </div>
+        <input type="button" id="btn theme" style="background-color: #22a79c; color: white; width: 150px; height: 40px; font-family: sans-serif; " value="Change Theme">
+      
+        <script src="index.js"></script>
+    </header>
+
+    <main>
+        <!-- // Work Experience -->
+        <section id="work" class="work">
+            <div class="content-wrap">
+                <h2>Work Experience</h2>
+
+          
+
+                <!-- Job 2 Details -->
+                <div class="col-narrow">
+                    <h3>Divento Ltd.</h3>
+                    <p class="uppercase">Data Analyst Intern</p>
+                    <p>October 2021 - February 2022 </p>
+                    <p>Chester,UK </p>
+                </div>
+
+
+
+
+
+                <div class="col-wide job-description">
+                    <ul>
+                    <li>
+                        I tested IOS &Android applications of the company
+                        periodically as Intern.
+                    </li>
+                    <li>
+                        I learned how to use Google Tag Manager& Google
+                        Analytics for Digital Marketing and Data Analysis
+                    </li>
+                    <li>
+                        I was analyzing the interactions between user and the
+                        app
+                    </li></ul>
+
+
+                </div>
+
+
+                <!-- Job 3 Details -->
+                <div class="col-narrow">
+                    <h3>
+                        Information Technologies and Communication Authority
+                        National Cyber Incidents Response Center
+                    </h3>
+
+
+
+
+                    <p class="uppercase">Pentester Intern</p>
+                    <p>September 2021 - November 2021</p>
+                    <h3> SKILLS</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Android</li>
+                        <li>C Programming</li>
+                        <li>UML Diagrams</li>
+                        <li>MySQL</li>
+                        <li>JDBC Connection</li>
+                        <li>Intellij IDEA</li>
+                        <li>Google Analytics</li>
+                        <li>Google Tag Manager</li>
+                        <li>BurpSuite</li>
+                        <li>B2-CI English Language Skills</li>
+                    </ul>
+                   
+                </div>
+
+             
+
+                <div class="col-wide job-description">
+
+                    <ul>
+                        <li>
+                            Learned web application penetration testing and ethical
+                            hacking through simulations and courses.
+                        </li>
+
+                        <li>
+                            Learned machine penetration testing through simulations
+                            and courses.
+                        </li>
+
+
+                    </ul>
+
+                    <p>See my complete work history and acheivements on <a href="" target="_blank">LinkedIn</a>.</p>
+                    <h3><u>The summarize of what I did during my undergraduate studies:</u></h3>
+                    <p><ul>
+                        <li>
+                            I made an artificial intelligence-based project about Lung
+                            Cancer Detection with Convolutional Neural Networks.
+                        </li>
+                        <li>
+                            I improved my skills on Data Analysis (regression, boost
+                            algorithms, data clearing).I have developed a website engine
+                            that estimates housing prices for Istanbul.
+                        </li>
+                        <li>
+                            I have designed various management systems using Java, C,
+                            Python programming languages.I have Linux-based
+                            programming experience.
+                        </li>
+                        <li>
+                            I developed various simple games and communication applications
+                            using Android.
+                        </li>
+                        <li>
+                            I did my Summer Internship for 3 months as Penetration Test
+                            Training - Pentester at the Information Technologies and
+                            Communication Authority National Cyber Incidents Response
+                            Center. Afterwards, I had the opportunity to improve myself in the
+                            field of Digital Marketing,Data Analysis at Divento ltd.
+                        </li></ul>
+
+                    </p>
+
+
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+        <section id="exptertise" class="exptertise">
+            <div class="content-wrap">
+                <h2>Projects</h2>
+                <div class="col-narrow">
+                    <h3>Movit Friends App</h3>
+                </div>
+                <div class="col-wide job-description">
+                    <p>MovitFriends is an application that allows you to communicate with your friends and aims to organize meet ups. In the project created using Shortest Path & Dijkstra Algorithms, the shortest path is calculated between two users. At the same time, there are various messaging screens with features such as seen, delivered, online.</p>
+                </div>
+                <div class="col-narrow">
+                    <h3>Offline Sudoku Game(two players against each other ) on Android</h3>
+                </div>
+                <div class="col-wide job-description">
+                    <p>Goals: • Two players on the same network can play a sudoku game together or against each other with different modes • User selection of different sudoku in easy-medium-hard levels. • Ranked and time trial modes • Creating a leaderboard at the end of the game • Players can communicate through the chat section during the game. Used technologies:Android Programming with Java, Socket Programming , TCP-IP implementation, Singleton Design Pattern</p>
+                </div>
+
+
+
+            </div>
+            <div class="content-wrap">
+                <h2>Quick Biography</h2>
+
+
+                <p> Sude Yüksek was born in Istanbul's Beykoz district, known as the “pearl of the Bosphorus” with its 18th and 19th-century houses and pretty, still largely unspoiled coastline, dotted with fishermen’s boats. She speaks French, English and Turkish fluently and writes in all three languages.</p>
+
+                <p>She took her first steps in coding at the age of 12 when she designed a 3D game. She is currently studying Computer Engineering at Marmara University in Istanbul.</p>
+                <p>Her hobbies include drawing, painting and reading the classics. She has explored 20 countries including several continents such as Asia, Europe and Africa, from Cape of Good Hope to Bangkok with her family, giving her the opportunity to meet different people and observe different cultures since her childhood. </p>
+                <p>When asked how she gets her inspiration as a developer, she answers that her favourite time to code, is “when I find a quiet place, where I can take small, gentle sips from a coffee thinking about the process in front of me and my past experiences; melting them into one unified solution, in a harmonious way, just as a perfect combination of nature and nurture”.</p>
+                <a href="https://www.divento.com/en/content/category/25-our-contributors">(taken from Divento.com)</a>
+            </div>
+
+
+        </section>
+
+        <!-- // Education -->
+        <section id="education" class="education">
+            <div class="content-wrap">
+                <h2>Education</h2>
+
+                <!-- School 1 details. -->
+                <h3>Marmara University</h3>
+                <p>Computer Engineering</p>
+                <p> Istanbul, Turkey</p>
+                <p>2019-2023</p>
+
+                <!-- School 2 details. -->
+                <h3>Çınar College Science High School</h3>
+                <p>Science</p>
+                <p> Istanbul, Turkey</p>
+                <p>2015-2019</p>
+                <!-- School 1 details. -->
+                <h3>Çınar College Primary School</h3>
+                <p> Istanbul, Turkey</p>
+                <p>2007-2014</p>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- // Footer & contact info -->
+    <footer id="contact">
+        <div class="content-wrap">
+            <h2>Let's Keep in Touch!</h2>
+
+            <!-- Social media links. Add or remove any networks. -->
+            <div class="contact-info">
+                <a href="mailto:sudeyuksek@hotmail.com">sudeyuksek@hotmail.com</a>
+                <a href="https://www.linkedin.com/in/sude-y%C3%BCksek-20276b210/">LinkedIn</a>
+                <a href="https://github.com/sudeyuksek">Github</a>
+            </div>
+
+            <p> </p>
+        </div>
+    </footer>
 </body>
 </html>
